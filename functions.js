@@ -31,3 +31,9 @@ function sum(a, b){
 }
 
 let sumArrow = (a, b) => a + b;
+
+
+function printLengthAndName(param) {
+    console.log(param.length);
+    console.log(param);
+}
