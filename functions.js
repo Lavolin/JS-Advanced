@@ -37,3 +37,13 @@ function printLengthAndName(param) {
     console.log(param.length);
     console.log(param);
 }
+
+function demoDate(year, month, day){
+    let dateInput = `${year}-${month}-${day}`;
+    let date = new Date(dateInput);
+    date.setDate(date.getDate());
+
+    console.log(`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()-1}`);
+}
+
+demoDate(2016, 9, 30)
